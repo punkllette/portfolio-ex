@@ -1,0 +1,21 @@
+.banner {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+}
+
+#sobre h2, #projetos h2, #contato h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    margin: 0;
+}
